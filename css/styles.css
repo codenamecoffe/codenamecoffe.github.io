@@ -1,0 +1,141 @@
+body {
+   background-color: rgba(0, 0, 0, 0.897);
+   color: white;
+   /* background-position: center;
+   background-size: cover;
+   background: url(../img/programmingblureddark2.jpg);
+   overflow:auto; */
+}
+
+a {
+   outline: none;
+   text-decoration: none;
+   color: lightgray;
+}
+
+a:focus, a:hover{
+   color: lightgray;
+   text-decoration: underline;
+   text-decoration-color: aqua;
+} 
+
+
+h2 {
+   font-family:'Courier New', Courier, monospace ;
+   font-size: 50px;
+   text-decoration:none;
+   text-decoration-color: aqua;
+   padding-top: 0.5em;
+   padding-left: 1em;
+   margin-bottom: 0.5em;
+}
+
+h4 {
+   font-family:'Courier New', Courier, monospace;
+   color: lightgray;
+   padding-left: 5.8em;
+   float: left;
+   text-align: center;
+}
+
+h3 {
+   font-family:'Courier New', Courier, monospace;
+   font-size: 150%;
+   margin-top: 5em;
+   margin-left: 20em;
+   margin-bottom: 2em;
+}
+
+ul.menu {
+   text-align: center;
+   margin-right: 10em;
+   width: 1700px;/*Evita que los elementos se tengan que reubicar al achicar la ventana. */
+}
+
+.menu li {
+   display: inline;
+   padding: 10px;
+   margin-inline: 5em;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bolder;
+}
+
+li#fijado {
+   border-radius: 1em;
+   background-color: aqua;
+   color: black;
+}
+
+img#perfil {
+   padding-top: 1em;
+   height: 20em;
+   border-radius: 4em;
+   border-color: blue;
+   border-width: 10em;
+} 
+
+p {
+   text-indent: 20px;
+   margin-left: 500px;
+   width: 500px;
+   height: 100px;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold;
+   color: lightgray;
+  
+}
+
+img#imgInicio1{
+   margin-top: 5em; 
+   margin-bottom: 0;
+   height: 17em;
+   float: right;
+   margin-right: 450px;
+   border-radius: 4em;
+   border-style: double;
+   border-color:black;
+}
+
+img#imgInicio2{
+   float:right;
+   margin-top: 2em;
+   margin-bottom: 2em;
+   height: 17em;
+   margin-right: 450px;
+   border-radius: 4em;
+   border-style: double;
+   border-color: lightcoral;
+}
+
+img#presentacion{
+   float: right;
+   height: 22em;
+   margin-top: 7em;
+   margin-right: 450px;
+   border-radius: 15em;
+   border-color: lightgrey;
+   border-style:double;
+}
+
+ul.conocimientos{
+   padding-top: 1px;
+   padding-left: 80px;
+}
+
+li {
+   margin-top: 1em;
+   margin-left: 30em;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bolder;
+   color: lightgray;
+}
+
+form p{
+   margin-left: 500px;
+   width: 500px;
+   height: 50px;
+}
+
+button#boton {
+   margin-left: 550px ;
+}
